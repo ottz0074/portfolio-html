@@ -1,38 +1,120 @@
+body{
+    background-color: #222222b9;
+    color: rgb(29, 28, 28);
+    font-family: Helvetica;
+    width:auto;
+    height:auto;
+   
+}
+ 
+#sobre{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    width:fit-content ;
+    justify-content:space-around ;
+    width:auto;
+ 
+}
 #sobreMim{
-    background-color: rgb(119, 17, 17);
+ 
+    width: 1080px;
+    background-color: #757575b9;
     text-align: center;
-    border: 3px, solid white;
-    padding: 12px;
-    margin: 15px;
+    border: 1px, solid white;
+    margin: 12px;
+    padding:12px;
     color: black;
+    align-items: center;
+    border-radius:5%;
 }
 
-#habilidades{
-    background-color: aqua;
-    text-align: center;
-    border: 12px, solid black;
-    padding: 1px;
-    margin: 7px;
-    color: green;
 
+
+#sobreMim h2{
+    font-size: 40px;
+    align-content: center;
+}
+#habilidades{
+    max-width: 1920px;
+    max-height: 1080px;
+    background-color: #757575b9;
+    text-align: center;
+    border: 1px, solid white;
+    margin: 12px;
+    padding:12px;
+    color:black;
+    border-radius:10%;
+    text-align: center;
 }
 #projetos{
-    background-color: cornflowerblue;
+    background-color: #757575b9;
     text-align: center;
-    border: 10px, solid  purple;
-    color: brown;
-    margin: 9px;
-    padding: 12px;
+    border: 1px, solid  white;
+    color: black;
+    margin: 12px;
+    padding:12px;
+    border-radius:5%;
 }
 #contato{
-    background-color: greenyellow;
+    background-color: #757575b9;
     text-align: center;
-    border:5px, solid royalblue;
-    color: cornflowerblue;
-    margin: 30px;
-    padding: 20px;
+    border:1px, solid white;
+    color: black;
+    margin: 12px;
+    padding:12px;
+    border-radius:5%;
+}
 
-}
 h1{
-    color: darkblue;
+    color: black;
 }
+ 
+a:hover {
+  color: white;
+}
+a{
+    color: rgb(22, 22, 22)
+}
+ 
+#fotonome {
+    display: flex;
+}
+.foto{
+    display: flex;
+    border-radius:25%;
+    border:3px, solid white;
+}
+#nome{
+    display:flex ;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    font-size: 30px;
+ 
+ 
+}
+ 
+footer{
+    text-align: center;
+    cursor: default;
+}
+footer:hover{
+    color: white;
+}
+
+ 
+@keyframes mover{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
+ animation: mover 1s infinite alternate;
+
+
+  transform: scale(1.2);
+  transition: 0.3s;
+ 
