@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    background-color: #00000046;
+    color: rgb(29, 28, 28);
+    width:auto;
+    height:auto;
+    font-family: 'Poppins', sans-serif;
+   
+}
+ 
+#sobre{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    width:fit-content ;
+    justify-content:space-around ;
+    width:auto;
+ 
+}
+#sobreMim{
+ 
+    width: 1080px;
+    background-color: #00000070;
+    text-align: center;
+    border: 1px, solid white;
+    color: black;
+    align-items: center;
+    border-radius:5%;
+    margin: 12px;
+    padding: 12px;
+    justify-content: center;
+}
+#sobreMim h2{
+    font-size: 40px;
+    align-content: center;
+}
+#habilidades{
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color:black;
+    margin: 12px;
+    margin-block-start: 0px;
+    margin-block-end: 10px;
+    
+}
+#habilidades ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    
+}
+#habilidades li{
+    border: 2px, solid black;
+    padding:6px;
+    border-radius: 5%;
+
+}
+#habilidades li:hover{
+    background-color:black;
+    color: white;
+    cursor:default;
+    transition: 0.2s;
+    
+    
+}
+
+#habilidades h2{
+   
+    text-align: center;
+}
+#projetos{
+    display: flex;
+    flex-direction: column; 
+    
+    background-color: #00000070;
+    border: 1px solid white;
+    color: black;
+    margin: 12px;
+    border-radius: 5%;
+    padding: 12px;
+}
+#titulo{
+    text-align: center;
+    width: 100%;
+}
+#projeto1{
+    display: flex;
+    flex-direction:column; 
+    text-align: center;
+    width: 50%;
+    margin-block-end: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+ }
+#projeto2{
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    width: 50%;
+    padding-left: 20px;
+    height: 823.06px;
+}
+.container-projetos{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: flex-start;
+}
+#contato{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: black;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h1{
+    color: black;
+}
+ 
+a:hover {
+  color: rgb(255, 255, 255);
+}
+a{
+    color: rgb(22, 22, 22)
+}
+ 
+#fotonome {
+    display: flex;
+}
+.foto{
+    display: flex;
+    border-radius:25%;
+    border:3px, solid white;
+}
+#nome{
+    display:flex ;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    font-size: 30px;
+ 
+ 
+}
+ 
+#nome a:hover{
+    color: white
+}
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+    flex-direction: column; 
+ 
+
+}
+footer h4{
+    display: inline-block;    
+    margin-block-start: 9px;
+        margin-block-end: 9px;
+}
+
+
+footer h4:hover{
+    color: white;
+    cursor:default;
+}
+ul {
+  list-style-type: none;
+  padding: 0;          
+  margin: 0;            
+}
+.botao-topo {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3636367c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+}
+
+.botao-topo:hover{
+    background-color: #363636;
+
+}
+.fotoProjeto {
+    display: block;
+    margin: 20px auto;
+    border-radius: 25%;
+    object-fit: cover;
+    transition: 0.3s;
+    padding-top: 35px;
+    margin-top: 35px;
+
+}
+
+.fotoProjeto:hover{
+    transform: translateY(-5px);
+}
